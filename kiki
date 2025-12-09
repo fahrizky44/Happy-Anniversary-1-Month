@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Pacar 1 Bulan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://imgur.com/a/Qb0eM2P'); /* Ganti dengan URL gambar latar belakang, misal foto kalian */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3em;
+            animation: fadeIn 2s;
+        }
+        p {
+            font-size: 1.5em;
+            animation: fadeIn 3s;
+        }
+        .heart {
+            font-size: 5em;
+            color: red;
+            animation: pulse 1s infinite;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Anniversary 1 Bulan, Sayang! 💕</h1>
+    <p>Terima kasih sudah menjadi bagian dari hidupku. Aku sayang banget sama kamu. Semoga kita bisa terus bersama selamanya.</p>
+    <div class="heart">❤️</div>
+    <p>Dari: [Fahrizky]</p>
+    <audio controls autoplay loop style="margin-top: 20px;">
+        <source src="https://www.dropbox.com/scl/fi/lfl3vj6f1c0a10fo9zkxn/1765267374082_-2147483648_-210097.ogg?rlkey=so3qbvd253qe5b9mlxafdb2co&st=xt59fxiv&dl=0" type="audio/mpeg"> <!-- Ganti dengan URL lagu favorit kalian -->
+        Browser kamu tidak mendukung audio.
+    </audio>
+</body>
+</html>
